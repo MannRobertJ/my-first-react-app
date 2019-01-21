@@ -4,7 +4,9 @@ export default class User extends Component {
   state = {here: true};
 
   toggleStatus = () => {
-    this.state.here = !this.state.here;
+    this.setState({
+      here: !this.state.here
+    })
   }
 
   render() {
