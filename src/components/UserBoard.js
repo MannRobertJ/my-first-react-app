@@ -7,7 +7,7 @@ export default class UserBoard {
         }, "")
     } */
     render() {
-        return <div> {eval(this.users)[0]}
+        return <div> {this.props.users}}
              </div>
     
     }
