@@ -4,6 +4,9 @@ import "./App.css";
 
 import Title from "./components/Title.js";
 import LightSwitch from "./components/Lightswitch.js";
+import User from "./components/User.js"
+
+const Alice = new User("Alice");
 
 class App extends Component {
   render() {
@@ -17,6 +20,7 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
+          <Alice />
         </main>
       </div>
     );
