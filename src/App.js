@@ -19,7 +19,8 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
-          <UserBoard users = {["me", "not me"]} present = {true}/>
+          <User name = "me" /> 
+          {/*  <UserBoard users = {["me", "not me"]} present = {true}/> */}
         </main>
       </div>
     );

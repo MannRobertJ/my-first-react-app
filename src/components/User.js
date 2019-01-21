@@ -8,7 +8,7 @@ export default class User extends Component {
   render() {
     return (
       <p>
-        User: <strong>{this.props.name}</strong>{" "}
+        User: <strong>{this.props.name}</strong>
       </p>
     );
   }
