@@ -5,7 +5,7 @@ export default class User extends Component {
   render() {
     return (
       <p>
-        User: <strong>`${this.props.content}`</strong>{" "}
+        User: <strong>{this.props.content}</strong>{" "}
       </p>
     );
   }
