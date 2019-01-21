@@ -11,7 +11,7 @@ export default class UserBoard {
         function appendUsers()
         return <div>
             <h3>User Board</h3>
-            <p id="users">appendUsers()</p>
+            <p id="users">{this.appendUsers()}</p>
         </div>
     
     }
