@@ -5,6 +5,7 @@ import "./App.css";
 import Title from "./components/Title.js";
 import LightSwitch from "./components/Lightswitch.js";
 import User from "./components/User.js"
+import UserBoard from "./components/UserBoard.js"
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
-          <User name = "not me" />
+          <UserBoard users = {["me", "not me"]} present = {true}/>
         </main>
       </div>
     );
