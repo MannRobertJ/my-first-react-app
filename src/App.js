@@ -20,7 +20,7 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
-          <Alice />
+          <User name="Alice" />
         </main>
       </div>
     );
