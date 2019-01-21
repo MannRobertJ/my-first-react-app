@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class User extends Component {
   state = {here: true};
 
-  toggleStatus() {
+  toggleStatus = () => {
     this.state.here = !this.state.here;
   }
 
@@ -11,8 +11,8 @@ export default class User extends Component {
     return (
       <p>
         User: <strong>{this.props.name}</strong>
-        {this.props.name} is {this.state.here ? "on" : "off"}
-        <button onClick="this.toggleStatus()">Toggle</button>
+        {this.props.name} is {this.state.here ? " here" : " away"}
+        <button onClick={this.toggleStatus}>Toggle</button>
       </p>
     );
   }
