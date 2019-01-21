@@ -1,19 +1,14 @@
 import React, { Component } from "react";
 
+import User from "./User"
+
 export default class UserBoard extends Component {
-  append() {
-      return this.props.users.reduce((string, user) => {
-        return string + "<br>" + `User: ${user}`
-    }, "")
-  }
   render() {
-    return (
-      <p>
-        {this.append()}
-      </p>
-    );
+      return <div> 
+          <h1> Users </h1>
+          <User name = "Work" />
+          <User name = "Damn" />
+          <User name = "You" /> 
+      </div>
   }
 }
-
-
-

@@ -19,8 +19,7 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
-          <User name="me" />
-          <UserBoard names = {["work", "damn", "you"]}/>
+          <UserBoard />
         </main>
       </div>
     );
