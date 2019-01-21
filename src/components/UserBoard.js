@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class User extends Component {
+export default class UserBoard extends Component {
   append() {
       return this.props.users.reduce((string, user) => {
         return string + "<br>" + `User: ${user}`
