@@ -7,11 +7,8 @@ export default class UserBoard {
         }, "")
     } */
     render() {
-        /* const usersPara = "<p id=\"users\"> </p> " */
-        return <div> {this.users[0]}
-            {/* <h3>User Board</h3>
-            <p id="users">{this.appendUsers()}</p>
- */}        </div>
+        return <div> {eval(this.users)[0]}
+             </div>
     
     }
 }
