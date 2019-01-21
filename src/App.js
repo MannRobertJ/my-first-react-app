@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Title from "./components/Title.js";
-import Lightswitch from "./components/Lightswitch.js";
+import LightSwitch from "./components/Lightswitch.js";
 
 class App extends Component {
   render() {
