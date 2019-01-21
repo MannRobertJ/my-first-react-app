@@ -18,7 +18,7 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
-          <User content="Alice" />
+          <User name="Alice" />
         </main>
       </div>
     );
