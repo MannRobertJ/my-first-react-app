@@ -4,8 +4,8 @@ import "./App.css";
 
 import Title from "./components/Title.js";
 import LightSwitch from "./components/Lightswitch.js";
-import User from "./components/User.js";
 import UserBoard from "./components/UserBoard.js"
+import Clock from "./components/Clock.js"
 
 class App extends Component {
   render() {
@@ -20,6 +20,7 @@ class App extends Component {
           <Title content="Some Simple Title" />
           <LightSwitch />
           <UserBoard />
+          <Clock />
         </main>
       </div>
     );
