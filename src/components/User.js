@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 
 export default class User extends Component {
-  here = true;
+  state = {here: true};
 
   toggleStatus() {
-    this.here = !this.here;
+    this.state.here = !this.state.here;
   }
 
   render() {
     return (
       <p>
         User: <strong>{this.props.name}</strong>
-        {this.props.name} is {this.state.active ? "on" : "off"}
+        {this.props.name} is {this.state.here ? "on" : "off"}
         <button onClick="this.toggleStatus()">Toggle</button>
       </p>
     );
