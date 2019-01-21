@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 export default class User extends Component {
-  constructor(name) {
+/*   constructor(name) {
     this.name = name;
-  }
+  } */
   render() {
     return (
       <p>

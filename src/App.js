@@ -19,7 +19,7 @@ class App extends Component {
           <Title content="Some Simple Title" />
           <LightSwitch />
           <User content = "not me" />
-         {/*  <User name="me" />  */}
+         /*  <User name="me" />  */
         </main>
       </div>
     );
