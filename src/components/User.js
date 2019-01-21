@@ -12,8 +12,8 @@ export default class User extends Component {
   render() {
     return (
       <p>
-        User: <strong>{this.props.name}</strong> <br>
-         {this.props.name} is {this.state.here ? " here" : " away"} <br>
+        User: <strong>{this.props.name}</strong> <br />
+        {this.props.name} is {this.state.here ? " here" : " away"} <br />
         <button onClick={this.toggleStatus}>Toggle</button>
       </p>
     );
